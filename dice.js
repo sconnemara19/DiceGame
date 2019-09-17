@@ -46,7 +46,7 @@ function Level2(){
 	let dice1 = rollDie(6);  
 	let dice2 = rollDie(4);
 	let dice3 = rollDie(4);
-	let score = 0  
+	let score = 1; 
 	console.log("You have rolled:" + dice1 + " & " + dice2 + " & " + dice3);
 	
 
@@ -69,7 +69,7 @@ let userinput = prompt ("Roll The Dice", "Roll")
 let dice1 = rollDie(8);
 let dice2 = rollDie(4);
 let dice3 = rollDie(4);
-let score = 0;
+let score = 2;
 console.log("You have rolled:" + dice1 + " & " + dice2 + " & " + dice3);
 
 	if(dice1 == 3 && dice2 == 3 && dice3 ==3){
@@ -91,6 +91,7 @@ let userinput = prompt ("Roll The Dice", "Roll")
 let dice1 = rollDie (10);
 let dice2 = rollDie (4);
 let dice3 = rollDie (4);
+let score = 3;
 console.log("You have rolled:" + dice1 + " & " + dice2 + " & " + dice3);
 	if (dice1 == 4 && dice2 == 4 && dice3 == 4){
 		console.log("You did it!", "You got four points!");
@@ -116,6 +117,7 @@ let userinput = prompt("Roll The Dice", "Roll")
 let dice1 = rollDie (12);
 let dice2 = rollDie (4);
 let dice3 = rollDie (4);
+let score = 4;
 console.log("You have rolled:" + dice1 + " & " + dice2 + " & " + dice3);
 if (dice1 == 5 && dice2 == 5 && dice3 == 5){
 	console.log ("you get 5 points")
@@ -138,14 +140,14 @@ if (dice1 == 5 && dice2 == 5 && dice3 == 5){
 function Level6(){
 console.log("Level 6!")
 let userinput = prompt("Roll The Dice", "Roll")
-let rollDie = (14);
-let rollDie = (4);
-let rollDie = (4);
-let score = 0;
+let dice1 = rollDie (14);
+let dice2 = rollDie (4)
+let dice3 = rollDie (4)
+let score = 5;
 console.log("You have rolled:" + dice1 + " & " + dice2 + " & " + dice3);
 if (dice1 == 6 && dice2 == 6 && dice3 == 6){
 	console.log ("winner chicken dinner! You get 6 points!")
-	score**;
+	score ++;
 	return;
 
 } else {
